@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+*{margin: 0; padding: 0; }
+body{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Oswald', sans-serif; font-weight: 500;
+}
+.topbarmain{
+    background: #f5f5f5;
+}
+.container {
+    width: 1140px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+}
+.Phone {
+    width: 217px;
+    float: left;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    padding: 7px 5px;
+    font-size: 14px;
+}
+.Email {
+    width: 583px;
+    float: left;
+    padding: 7px 5px;
+    font-size: 14px;
+}
+.Social {
+    width: 318px;
+    float: left;
+    transition: .5s;
+    
+}
+.topbarwrapper {
+    overflow: hidden;
+}
+.Social a {
+    display: block;
+    float: left;
+    padding: 7px;
+    border right: 1px solid #ddd;
+    color: rgb(44, 44, 44);
+
+}
+
+.Social a:first-child{
+    border-left: 1px solid #ddd;
+}
+
+.Social a:last-child{
+    border-right: 1px solid #ddd;
+}
+
+
+.Phone i {
+    color: #ff5200;
+    
+}
+.Email i {
+    color: #ff5200;
+}
+.Social i:hover{
+    color: #ff5200;
+}
+.primarywrapper {
+    overflow: hidden;
+    width: 100%;
+}
+.logo {
+    width: 150px;
+    float: left;
+    margin-top: 23px;
+}
+.menu {
+    width: 990px;
+    float: left;
+}
+ul.mainmenuitem {
+    list-style: none;
+    float: right;
+}
+li {
+    float: left;
+}
+li a{
+    text-decoration: none;
+    font-family: "oswald";
+    text-transform: uppercase;
+    font-size: 16px;
+    display: block;
+    padding: 30px 15px;
+    color: rgb(36, 35, 35);
+    font-weight: 500;
+    transition: 0.5s;
+}
+ul.mainmenuitem li a:hover{
+    color: #ff5200;
+}
+#homeslider {
+    background: url(images/police2.jpg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    padding-top: 5px;
+}
+.slidercontent {
+    color: #059ede;
+    width: 392px;
+}
+.slidercontent h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 20px;
+}
+.slidercontent p{
+    font-weight: 700;
+    padding-left: 22px;
+}
+button#sliderworkbutton {
+    margin: 30px;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    background-color: #ff5200;
+    color: white;
+    border: none;
+    font-weight: 700;
+    border-radius: 3px;
+    margin-bottom: 100px;
+
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: blanchedalmond;
+    margin: 0px;
+    margin-top: 13px;
+    
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: larger;
+}
+li a:hover{
+    color: tomato;
+}
+.islamic{
+    color: black;
+    font-size: large;
+    width: 250px;
+    overflow: hidden;
+    height: 170px;
+    text-align: justify;
+    float: left;
+    padding: 15px 15px;
+}
+
+.blog {
+    width: 350px;
+    border: 2px solid red;
+    overflow: hidden;
+    margin: 10px;
+    padding: 23px;
+    border-radius: 10px;
+    float: left;
+}
